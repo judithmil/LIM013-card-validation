@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-    <body>
-    <header>
-      <hr>
-      <div id= "portada">
-      </div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Tarjeta de crédito válida</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+ <body>
+	<header>
+		<div id="portada">
+		</div>
+  </header>
+	<main>
+		<div id="primerapag">
+			
+			<h1>Suscríbete a Netflix</h1>
+			<h2>Paso 1</h2>
 
-    </header>
-    <main>
-      <div id="primerapag">
-        <center><h1>Suscríbete a Netflix</h1></center>
-        <h2>Paso 1</h2>
-        <p id="ingresaremail">Ingresa tu email para registrarte</p>
-        <input type="text" name="email" id="email" placeholder="example@gmail.com"><br>
-        <button type="button" id="botonuno">Continuar</button>
-      </div>
+	  <form name="ingresaemail" id="ingresaemail" method="get" action="segundapag">
+				<label>Ingresa tu email para registrarte</label> <br>
+        <input type="text" name="email" id="email" placeholder="example@gmail.com"> <br>
+        <button type="button" id="boton1">Continuar</button>
+        </form>
+    </div>
       
-    <div id="segundapag">
-      <h1>Confirma suscripción</h1>
+      <div id="segundapag">
+      <h1>Realiza pago para suscribirte</h1>
       <h2>Paso 2</h2>
-      <p id="validatarjetapara">Valida tarjeta para continuar</p>
+      
+      <div id="validatarjetapara">Valida tu tarjeta para continuar</div>
+
       <form action="" class="formulario">
-        <label for="nameClient" class="form-label1">Nombre del titular de la tarjeta</label><br>
-
-
+        <div class="dato1">
+        <label for="nameClient" class="form--label1">Nombre del titular de la tarjeta</label>
+        <input type="text" id="nameClient" class="from-input1">
+        </div>
+        <div class="dato2">
+        <label for="creditCardNumber" class="form--label2">Número de tarteja</label>
+        <input type="text" id="creditCardNumber" maxlength= "16" class="form-imput2">
+        <div class="dato3">
+        </div>
+        <div class="dato3">
+        <label for="exp" class="form--label3">Fecha de expiración</label>
+        <input type="text" id="exp" placeholder="01/20" maxlength= "5" class="from-input3">
+        </div>
+        <div class="dato4">
+        <label for="cvv" class="form--label4">CVV</label>
+        <input type="text" id="cvv" maxlength= "3" class="from-input4">
+        </div>
       </form>
- 
+      <button type="button" id="boton2">Validar</button>
+      
+      <div id= "nota1"></div>
+      </div>
+      <div id="nota2">
+      <p id="tarjetavalida"></p>
+
+      <div id="nota3">
+      <p id="tarjetainvalida"></p>
     </div>
 
     </main>
-    <footer></footer>
+    <footer>
+      <p>© Copyright 2020, Milusca Vega</p>
+    </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
