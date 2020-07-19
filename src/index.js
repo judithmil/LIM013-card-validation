@@ -23,18 +23,16 @@ const boton2= document.getElementById('boton2');
       const cvv=document.getElementById('cvv').value;
       if (nameClient === "" && creditCardNumber === "" && exp === "" && cvv === "") {
            document.getElementById('nota1').innerHTML= 'Ingresar datos requeridos';
-      }  else {
-      const numeroTarjeta = document.getElementById('creditCardNumber');
-      const isValidCardNumber = validator.isValid(numeroTarjeta.value);
+      }  
 
 
 
 
-
-      }
-      
 
       });
+      
+
+    
 
 
  //console.log(validator);
