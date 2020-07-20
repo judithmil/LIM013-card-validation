@@ -1,4 +1,4 @@
-//import validator from './validator.js';
+import validator from './validator.js';
 
 //funcion primer boton-------------------------
 const boton1 = document.getElementById('boton1'); 
