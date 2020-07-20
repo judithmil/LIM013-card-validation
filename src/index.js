@@ -22,7 +22,10 @@ const boton2= document.getElementById('boton2');
       const exp= document.getElementById('exp').value;
       const cvv=document.getElementById('cvv').value;
       if (nameClient === "" && creditCardNumber === "" && exp === "" && cvv === "") {
-           document.getElementById('nota1').innerHTML= 'Ingresar datos requeridos';
+           document.getElementById('nota1').innerHTML= '¡Ingresar datos requeridos!';
+           document.getElementById('nota3').style.display='none';
+           document.getElementById('nota2').style.display='none';
+           document.getElementById('nota1').style.display='block';
       }  
 
 
