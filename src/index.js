@@ -33,14 +33,14 @@ const boton2= document.getElementById('boton2');
         numeroTarjeta.value = numeroTarjetaEncriptado;
       
         if (isValidCardNumber === true) {
-          document.getElementById('tarjetaválida').innerHTML= 'Tarjeta ingresada válida';
+          document.getElementById('nota2').innerHTML='Tarjeta ingresada válida';
             document.getElementById('nota1').style.display='none';
             document.getElementById('nota3').style.display='none';
             document.getElementById('nota2').style.display='block';
-            // setTimeout('document.location.reload()',10000);
+            // setTimeout('document.location.reload()',20000);
             } else {
             
-            document.getElementById('tarjetainválida').innerHTML= 'Tarjeta ingresada inválida';
+            document.getElementById('nota3').innerHTML= 'Tarjeta ingresada inválida';
             document.getElementById('nota1').style.display='none';
             document.getElementById('nota2').style.display='none';
             document.getElementById('nota3').style.display='block';

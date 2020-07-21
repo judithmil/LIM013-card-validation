@@ -1,4 +1,4 @@
-const validator = {
+export const validator = {
 
   isValid: function(creditCardNumber){
   const reverse = (array) => {
@@ -78,4 +78,3 @@ const validator = {
 
 };
 
-export default validator;
