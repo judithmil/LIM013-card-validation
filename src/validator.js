@@ -1,4 +1,6 @@
-const isValid = (creditCardNumber) => {
+const validator = {
+
+  isValid: function(creditCardNumber){
   const reverse = (array) => {
     let newArray = [];
     let size = array.length;
@@ -29,7 +31,7 @@ const isValid = (creditCardNumber) => {
     for (let index = 0; index < array.length; index++) {
     const temp = Number(array[index]);
       if (temp >= 10) {
-        const tempArray = array[index].split(''); //arreglo de Strings
+        const tempArray = array[index].split(''); 
         let sum = 0;
         for (let i = 0; i < tempArray.length; i++) {
           sum += Number(tempArray[i]);
@@ -57,11 +59,23 @@ const isValid = (creditCardNumber) => {
   const suma = sumTotal(sumDigitsCard);
   const isValidCardNumber = suma % 10 === 0;
   return isValidCardNumber;
-};  
+}
 
-const validator = {
-  isValid,
- 
+
+,maskify: function(creditCardNumber){
+  let lastfour = creditCardNumber.length;
+  let finalnumber = "";
+  for(let i = 0; i < lastfour - 4; i++)
+    {
+      finalnumber += "#";
+    }
+    
+  return finalnumber + creditCardNumber.substring(lastfour-4,lastfour);
+   
+
+}
+
+
 };
 
 export default validator;

@@ -1,4 +1,4 @@
-import validator from './validator.js';
+import {validator} from './validator.js';
 
 //funcion primer boton-------------------------
 const boton1 = document.getElementById('boton1'); 
@@ -26,9 +26,27 @@ const boton2= document.getElementById('boton2');
            document.getElementById('nota3').style.display='none';
            document.getElementById('nota2').style.display='none';
            document.getElementById('nota1').style.display='block';
-      }  
-
-
+      }  else {
+        const numeroTarjeta = document.getElementById('creditCardNumber');
+        const numeroTarjetaEncriptado = validator.maskify(numeroTarjeta.value);
+        const isValidCardNumber = validator.isValid(numeroTarjeta.value);
+        numeroTarjeta.value = numeroTarjetaEncriptado;
+      
+        if (isValidCardNumber === true) {
+          document.getElementById('tarjetaválida').innerHTML= 'Tarjeta ingresada válida';
+            document.getElementById('nota1').style.display='none';
+            document.getElementById('nota3').style.display='none';
+            document.getElementById('nota2').style.display='block';
+            // setTimeout('document.location.reload()',10000);
+            } else {
+            
+            document.getElementById('tarjetainválida').innerHTML= 'Tarjeta ingresada inválida';
+            document.getElementById('nota1').style.display='none';
+            document.getElementById('nota2').style.display='none';
+            document.getElementById('nota3').style.display='block';
+            // setTimeout('document.location.reload()',10000);
+            }   
+      }
 
 
 
