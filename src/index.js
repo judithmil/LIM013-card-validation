@@ -10,6 +10,7 @@ const boton1 = document.getElementById('boton1');
         document.getElementById('email').focus();
         document.getElementById('primerapag').style.display='none';
         document.getElementById('segundapag').style.display='block';
+        document.getElementById('contenidobanner').style.display='none';
         }
 });
 

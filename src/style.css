@@ -1,54 +1,98 @@
-#portada {
-margin: 0px;
-height: 240px;
-background: url("https://i.ibb.co/stNyznB/Banner.png");
-background-repeat: no-repeat;
-background-size: 100% 100%;
-box-sizing: border-box;
-
-}
-
-  
 body {
 margin: 0px;
-background: #ffffff;
+background: #f9faf9;
 font-family: calibri;
-  
 }
   
-h1 {
-margin: 0 auto;
-margin-top: 50px;
-width: 900px;
-height: 61px;
-left: 122px;
-top: 360px; 
-text-align: center;
+.contenedorlogo {
+position:relative;
+padding: 0 px;
+height:110px;
+background-color: #9dcd5a;
+color: #ffffff;
 font-family: verdana;
-font-style: bold;
-font-weight: bold;
-font-size: 50px;
-line-height: 61px;
-color: #000000;
-  
+font-size: 20px;
 }
+  
+#logopop{
+position:static;
+margin-top: 20px;
+margin-bottom: 1px;
+float:left;
+}
+  
+#botones{
+  position:static;
+  margin-top: 60px;
+  float:right;
+  }
+  
+#buscador{
+    max-height: 30px;
+    max-width: 30px;
+  
+  }
+  
+#menu{
+    max-height: 30px;
+    max-width: 30px;
+  }
+  
+.banner{
+    background-image: url("https://serieadictos.files.wordpress.com/2009/04/blo-banner-series.jpg");
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height:100%;
+  }
+  
+.banner span{
+    background:#22242067;  
+  }
+  
+  h1{
+    font-size: 30px;
+    color: #f5f5ef;
+    margin: 170 80px 0 80px;
+    font-family: verdana;
+    text-align:center;
+    -webkit-text-fill-color: #d0d4d4;
+    -webkit-text-stroke: 1px rgb(236, 236, 229);
+  }
+   
   
 h2 {
-position: relative;
-margin: 0 auto;
-margin-top: 30px;
-margin-bottom: 30px;
-width: 418px;
-height: 60px;
-left: -45px;
-font-family: verdana;
-font-style: bold;
-font-weight: bold;
-font-size: 30px;
-line-height: 60px;
-color:crimson;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 418px;
+    height: 60px;
+    left: -45px;
+    font-family: verdana;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    color:#6F0002;
+  }
   
-}
+h3{
+    font-size: 30px;
+    color: #000000;
+    margin: 170 80px 0 80px;
+    font-family: verdana;
+    text-align:center;
+    text-shadow:  rgba(0, 0, 0, 0.6);
+  }
+
+hr {
+  position:center;
+  background-color: rgb(119, 26, 38);
+  margin-bottom: 20px;
+  width:600px;
+  height:2px;
+  }
   
 #ingresaemail {
 margin: 0 auto;
@@ -65,7 +109,7 @@ background: rgba(229, 229, 229, 0.86);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 max-width:500px;
 border-radius: 20px;
-  
+  border: 1px solid #a1da52;
 }
   
 #email {
@@ -340,17 +384,21 @@ color: #fc0000;
     
 }
 
-footer {
-margin-top: 200px;
-line-height:80px;
-text-align:center;
-background-color: #000000;
-height:80px;
-color: #ffffff;
-
-}
+footer{
+ position: absolute;
+ margin-top: 120px;
+ text-align:center;
+ margin-bottom: 1px;
+ width:100%;
+ background-color: #000000;
+ color: #ffffff
+  }
+  
+#cerdito{
+ font-size: 35px;
+  }
   
 #segundapag {
-display: none; 
+ display: none; 
 
 }
