@@ -1,166 +1,153 @@
 body {
-margin: 0px;
-background: #f9faf9;
-font-family: calibri;
+  margin: 0px;
+  background: #f9faf9;
+  font-family: calibri;
 }
   
 .contenedorlogo {
-position:relative;
-padding: 0 px;
-height:110px;
-background-color: #9dcd5a;
-color: #ffffff;
-font-family: verdana;
-font-size: 20px;
+  position:relative;
+  padding: 0 px;
+  height:110px;
+  background-color: #9dcd5a;
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 20px;
 }
   
-#logopop{
-position:static;
-margin-top: 20px;
-margin-bottom: 1px;
-float:left;
+#logopop {
+  position:static;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  float:left;
 }
   
-#botones{
+#botones {
   position:static;
   margin-top: 60px;
   float:right;
-  }
+}
   
-#buscador{
-    max-height: 30px;
-    max-width: 30px;
+#buscador {
+  max-height: 30px;
+  max-width: 30px;
+}
   
-  }
+#menu {
+  max-height: 30px;
+  max-width: 30px;
+}
   
-#menu{
-    max-height: 30px;
-    max-width: 30px;
-  }
+.banner {
+  background-image: url("https://serieadictos.files.wordpress.com/2009/04/blo-banner-series.jpg");
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  height:100%;
+}
   
-.banner{
-    background-image: url("https://serieadictos.files.wordpress.com/2009/04/blo-banner-series.jpg");
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    height:100%;
-  }
+.banner span {
+  background:#22242067;  
+}
   
-.banner span{
-    background:#22242067;  
-  }
-  
-  h1{
-    font-size: 30px;
-    color: #f5f5ef;
-    margin: 170 80px 0 80px;
-    font-family: verdana;
-    text-align:center;
-    -webkit-text-fill-color: #d0d4d4;
-    -webkit-text-stroke: 1px rgb(236, 236, 229);
-  }
+h1 {
+  font-size: 30px;
+  color: #f5f5ef;
+  margin: 170 80px 0 80px;
+  font-family: verdana;
+  text-align:center;
+  -webkit-text-fill-color: #d0d4d4;
+  -webkit-text-stroke: 1px rgb(236, 236, 229);
+}
    
   
 h2 {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width: 418px;
-    height: 60px;
-    left: -45px;
-    font-family: verdana;
-    font-style: bold;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 60px;
-    color:#6F0002;
-  }
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 418px;
+  height: 60px;
+  left: -45px;
+  font-family: verdana;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  color:#6F0002;
+}
   
-h3{
-    font-size: 30px;
-    color: #000000;
-    margin: 170 80px 0 80px;
-    font-family: verdana;
-    text-align:center;
-    text-shadow:  rgba(0, 0, 0, 0.6);
-  }
-
 hr {
   position:center;
   background-color: rgb(119, 26, 38);
   margin-bottom: 20px;
   width:600px;
   height:2px;
-  }
+}
   
 #ingresaemail {
-margin: 0 auto;
-font-size: 27px;
-padding: 15px;
-position:center;
-text-align:center;
-top:20%;
-left: 10%;
-line-height: 40px;
-font-family: verdana;
-color: #000000;
-background: rgba(229, 229, 229, 0.86);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-max-width:500px;
-border-radius: 20px;
+  margin: 0 auto;
+  font-size: 27px;
+  padding: 15px;
+  position:center;
+  text-align:center;
+  top:20%;
+  left: 10%;
+  line-height: 40px;
+  font-family: verdana;
+  color: #000000;
+  background: rgba(229, 229, 229, 0.86);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width:500px;
+  border-radius: 20px;
   border: 1px solid #a1da52;
 }
   
 #email {
-position: flex;
-max-width:300px;
-margin-top:20px;
-width: 90%;
-height: 66px;
-left: 381px;
-top: 660px;
-background: #FFFFFF;
-background-size: 400px 400px;
-border: 1px solid #D8CACA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 41px;
-padding-left: 25px;
-font-family: verdana;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 29px;
-color: rgb(3, 3, 3);
-outline: none;
-  
+  position: flex;
+  max-width:300px;
+  margin-top:20px;
+  width: 90%;
+  height: 66px;
+  left: 381px;
+  top: 660px;
+  background: #FFFFFF;
+  background-size: 400px 400px;
+  border: 1px solid #D8CACA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  padding-left: 25px;
+  font-family: verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: rgb(3, 3, 3);
+  outline: none;
 }
   
 #boton1 {
-position: flex;
-font-size: 18px;
-padding: 8px;
-margin-top: 20px;
-color: white;
-background: #6F0002;
-border: 1px solid #6F0002;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 63px;
-outline: none;
-
+  position: flex;
+  font-size: 18px;
+  padding: 8px;
+  margin-top: 20px;
+  color: white;
+  background: #6F0002;
+  border: 1px solid #6F0002;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 63px;
+  outline: none;
 }
   
 #validatarjetapara {
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 20px;
-text-align: center;
-font-family: verdana;
-font-style: bold;
-font-weight: bold;
-font-size: 20px;
-color: #000000;
-
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: verdana;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
 }
   
 .formulario {
@@ -178,10 +165,8 @@ background: rgba(229, 229, 229, 0.86);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 max-width: 500px;
 min-width: 500px;
-border-radius: 20px;
-  
+border-radius: 20px; 
 }
-  
   
 #boton2 {
 margin: -20px -50px; 
@@ -197,7 +182,6 @@ border: 1px solid #6F0002;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 63px;
 outline: none; 
-
 }
   
 .form--label1 {
@@ -211,7 +195,6 @@ font-weight: bold;
 font-size: 15px;
 line-height: 34px;
 color: #000000;
-
 }
   
 .form--label2 {
@@ -253,7 +236,6 @@ font-weight: bold;
 font-size: 15px;
 line-height: 34px;
 color: #000000;
-
 }
   
   
@@ -276,7 +258,6 @@ line-height: 29px;
 color: rgb(3, 3, 3);
 justify-content: center;
 align-items: center;
-
 }
   
 #creditCardNumber {
@@ -299,7 +280,6 @@ line-height: 29px;
 color: rgb(3, 3, 3);
 justify-content: center;
 align-items: center;
-
 }
   
 #exp {
@@ -321,21 +301,20 @@ line-height: 29px;
 color: rgb(3, 3, 3);
 justify-content: center;
 align-items: center;
-
 }
   
 #cvv {
-position: relative;
-width: 200px;
-height: 20px;
-left: 110px;
-margin: 0 auto;
-background: #FFFFFF;
-border: 1px solid #D8CACA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 41px;
-padding-left: 25px;
-font-family: verdana;
+  position: relative;
+  width: 200px;
+  height: 20px;
+  left: 110px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #D8CACA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  padding-left: 25px;
+  font-family: verdana;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -347,59 +326,64 @@ align-items: center;
 }
   
 #nota1 {
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 20px;
-text-align: center;
-font-family: verdana;
-font-style: bold;
-font-weight: bold;
-font-size: 20px;
-color: #2875e9;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: verdana;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2875e9;
 
 }
 
 #nota2 {
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 20px;
-text-align: center;
-font-family: verdana;
-font-style: bold;
-font-weight: bold;
-font-size: 20px;
-color: #479b4e;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: verdana;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  color: #479b4e;
     
 }
 
 #nota3 {
-margin: 0 auto;
-margin-top: 50px;
-margin-bottom: 20px;
-text-align: center;
-font-family: verdana;
-font-style: bold;
-font-weight: bold;
-font-size: 20px;
-color: #fc0000;
-    
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: verdana;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fc0000;   
 }
 
 footer{
- position: absolute;
- margin-top: 120px;
- text-align:center;
- margin-bottom: 1px;
- width:100%;
- background-color: #000000;
- color: #ffffff
-  }
+  position: absolute;
+  margin-top: 120px;
+  text-align:center;
+  margin-bottom: 1px;
+  width:100%;
+  background-color: #000000;
+  color: #ffffff
+}
   
+
 #cerdito{
- font-size: 35px;
-  }
+  font-size: 35px;
+}
   
+#imagenfinal{
+  font-size:20px;
+  left: 10px;
+}
+
 #segundapag {
- display: none; 
+  display: none; 
 
 }
