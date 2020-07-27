@@ -14,25 +14,26 @@ body {
   font-size: 20px;
 }
   
-#logopop {
+.logo {
   position:static;
   margin-top: 20px;
   margin-bottom: 1px;
   float:left;
 }
   
-#botones {
+.botones {
   position:static;
   margin-top: 60px;
   float:right;
+  margin-right: 40px;
 }
   
-#buscador {
+.buscador {
   max-height: 30px;
   max-width: 30px;
 }
   
-#menu {
+.menu {
   max-height: 30px;
   max-width: 30px;
 }
@@ -59,7 +60,6 @@ h1 {
   -webkit-text-stroke: 1px rgb(236, 236, 229);
 }
    
-  
 h2 {
   position: relative;
   margin: 0 auto;
@@ -69,16 +69,22 @@ h2 {
   height: 60px;
   left: -45px;
   font-family: verdana;
-  font-style: bold;
-  font-weight: bold;
   font-size: 30px;
   line-height: 60px;
-  color:#6F0002;
+  color:#3E6ECD;
 }
   
+h3{
+  font-size: 30px;
+  color: #3E6ECD;
+  margin: 170 80px 0 80px;
+  font-family: verdana;
+  text-align:center;  
+}
+
 hr {
   position:center;
-  background-color: rgb(119, 26, 38);
+  background-color: #3E6ECD(119, 26, 38);
   margin-bottom: 20px;
   width:600px;
   height:2px;
@@ -96,7 +102,6 @@ hr {
   font-family: verdana;
   color: #000000;
   background: rgba(229, 229, 229, 0.86);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   max-width:500px;
   border-radius: 20px;
   border: 1px solid #a1da52;
@@ -117,8 +122,6 @@ hr {
   border-radius: 41px;
   padding-left: 25px;
   font-family: verdana;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 29px;
   color: rgb(3, 3, 3);
@@ -131,8 +134,8 @@ hr {
   padding: 8px;
   margin-top: 20px;
   color: white;
-  background: #6F0002;
-  border: 1px solid #6F0002;
+  background: #3E6ECD;
+  border: 1px solid #3E6ECD;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 63px;
   outline: none;
@@ -146,39 +149,41 @@ hr {
   font-family: verdana;
   font-style: bold;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   color: #000000;
 }
   
 .formulario {
-margin: 0 auto;
-font-size: 20px;
-padding: 15px;
-position: center;
-text-align: center;
-top: 20%;
-left: 10%;
-line-height: 40px;
-font-family: verdana;
-color: #000000;
-background: rgba(229, 229, 229, 0.86);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-max-width: 500px;
-min-width: 500px;
-border-radius: 20px; 
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 15px;
+  position: center;
+  text-align: center;
+  top: 20%;
+  left: 10%;
+  line-height: 40px;
+  font-family: verdana;
+  color: #000000;
+  background: rgba(229, 229, 229, 0.86);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 500px;
+  min-width: 500px;
+  border-radius: 20px; 
+  border: 1px solid #a1da52;
 }
   
 #boton2 {
-margin: -20px -50px; 
+margin: -50px -50px; 
+width: 100px;
 position: relative;
 top: 50%; 
 left: 50%;
 font-size: 18px;
-padding: 12px;
+padding: 15px;
 margin-top: 20px;
 color: white;
-background: #6F0002;
-border: 1px solid #6F0002;
+background: #3E6ECD;
+border: 1px solid #3E6ECD;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 63px;
 outline: none; 
@@ -208,12 +213,11 @@ font-weight: bold;
 font-size: 15px;
 line-height: 34px;
 color: #000000;
-
 }
   
 .form--label3 {
 position: relative;
-width: 244px;
+width: 240px;
 height: 34px;
 left: -2px;
 font-family: verdana;
@@ -222,7 +226,6 @@ font-weight: bold;
 font-size: 15px;
 line-height: 34px;
 color: #000000;
-
 }
   
 .form--label4 {
@@ -238,8 +241,7 @@ line-height: 34px;
 color: #000000;
 }
   
-  
-#nameClient {
+.form-input1 {
 position: relative;
 width: 200px;
 height: 20px;
@@ -251,20 +253,17 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 41px;
 padding-left: 25px;
 font-family: verdana;
-font-style: normal;
-font-weight: normal;
 font-size: 15px;
 line-height: 29px;
 color: rgb(3, 3, 3);
-justify-content: center;
-align-items: center;
+outline: none; 
 }
   
-#creditCardNumber {
+.form-input2 {
 position: relative;
 width: 200px;
 height: 20px;
-left: 51px;
+left: 8px;
 margin: 0 auto;
 background: #FFFFFF;
 margin-top:20px;
@@ -273,37 +272,47 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 41px;
 padding-left: 25px;
 font-family: verdana;
-font-style: normal;
-font-weight: normal;
 font-size: 15px;
 line-height: 29px;
 color: rgb(3, 3, 3);
-justify-content: center;
-align-items: center;
+outline: none; 
 }
-  
-#exp {
-position: relative;
-width: 200px;
-height: 20px;
-left: 46px;
-margin: 0 auto;
-background: #FFFFFF;
-border: 1px solid #D8CACA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 41px;
-padding-left: 25px;
-font-family: verdana;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 29px;
-color: rgb(3, 3, 3);
-justify-content: center;
-align-items: center;
+
+.form-mes{
+  position: relative;
+  width: 120px;
+  height: 24px;
+  left: 40px;
+  text-align-last: center;
+  background: #FFFFFF;
+  border: 1px solid #D8CACA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(3, 3, 3);
+  outline: none; 
 }
-  
-#cvv {
+
+.form-year{
+  position: relative;
+  width: 90px;
+  height: 24px;
+  left: 49px;
+  text-align-last: center;
+  background: #FFFFFF;
+  border: 1px solid #D8CACA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(3, 3, 3);
+  outline: none; 
+}
+
+.form-input4 {
   position: relative;
   width: 200px;
   height: 20px;
@@ -315,16 +324,20 @@ align-items: center;
   border-radius: 41px;
   padding-left: 25px;
   font-family: verdana;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 29px;
-color: rgb(3, 3, 3);
-justify-content: center;
-align-items: center;
-
+  font-size: 15px;
+  line-height: 29px;
+  color: rgb(3, 3, 3);
+  outline: none; 
 }
-  
+
+#nota0{
+  text-align: center;
+  font-family: verdana;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ee314a; 
+}
 #nota1 {
   margin: 0 auto;
   margin-top: 50px;
@@ -334,8 +347,7 @@ align-items: center;
   font-style: bold;
   font-weight: bold;
   font-size: 20px;
-  color: #2875e9;
-
+  color: #ee314a;
 }
 
 #nota2 {
@@ -348,7 +360,6 @@ align-items: center;
   font-weight: bold;
   font-size: 20px;
   color: #479b4e;
-    
 }
 
 #nota3 {
@@ -373,17 +384,53 @@ footer{
   color: #ffffff
 }
   
-
-#cerdito{
-  font-size: 35px;
+.cerdito{
+  font-size: 40px;
 }
   
-#imagenfinal{
-  font-size:20px;
-  left: 10px;
+#segundapag {
+  display: none;    
 }
 
-#segundapag {
-  display: none; 
+.ultimapantalla{
+  display: none;
+}
 
+.name1{
+  text-align: center;
+  font-family: verdana;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(119, 127, 131);
+}
+
+.mensajefinal{
+  text-align: center;
+  font-family: verdana;
+  font-style: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.suscripcion{
+  float: center;
+  text-align:center;
+}
+
+#boton3{
+  position: center;
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background: #3E6ECD;
+  border: 1px solid #3E6ECD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 63px;
+  outline: none;
+}
+
+#victory{
+  display: none;
 }
