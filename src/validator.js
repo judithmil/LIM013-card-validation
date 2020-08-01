@@ -1,4 +1,4 @@
-  const validator = {
+ const validator = {
 //funcion para validar tarjeta//
   isValid: function(creditCardNumber){
 //funcion para poner en reversa los numeros//
@@ -10,7 +10,6 @@
       newArray.push(array[i]);
     }
     return newArray;
-  
   };
 //funcion para multiplicar solo las ubicaciones pares de la tarjeta//
   const multiply = (array) => {

@@ -1,9 +1,4 @@
-body {
-  margin: 0px;
-  background: #f9faf9;
-  font-family: calibri;
-}
-  
+/* portada y logo de la página*/
 .contenedorlogo {
   position:relative;
   padding: 0 px;
@@ -12,6 +7,7 @@ body {
   color: #ffffff;
   font-family: verdana;
   font-size: 20px;
+  width: 100%;
 }
   
 .logo {
@@ -20,7 +16,7 @@ body {
   margin-bottom: 1px;
   float:left;
 }
-  
+/* iconos de apariencia buscador y menu*/  
 .botones {
   position:static;
   margin-top: 60px;
@@ -37,17 +33,18 @@ body {
   max-height: 30px;
   max-width: 30px;
 }
-  
+ /* estilos del banner y color del titulo de banner*/ 
 .banner {
   background-image: url("https://serieadictos.files.wordpress.com/2009/04/blo-banner-series.jpg");
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height:100%;
 }
   
 .banner span {
-  background:#22242067;  
+  background:#222420a9;  
 }
   
 h1 {
@@ -59,7 +56,13 @@ h1 {
   -webkit-text-fill-color: #d0d4d4;
   -webkit-text-stroke: 1px rgb(236, 236, 229);
 }
-   
+/* estilo de cuerpo de la pagina*/  
+body {
+  margin: 0px;
+  background: #f9faf9;
+  font-family: calibri;
+}
+/*estilo para el titulo de pasos de los formularios*/
 h2 {
   position: relative;
   margin: 0 auto;
@@ -73,15 +76,7 @@ h2 {
   line-height: 60px;
   color:#3E6ECD;
 }
-  
-h3{
-  font-size: 30px;
-  color: #3E6ECD;
-  margin: 170 80px 0 80px;
-  font-family: verdana;
-  text-align:center;  
-}
-
+/* estilo para el subrayado de los pasos*/  
 hr {
   position:center;
   background-color: #3E6ECD(119, 26, 38);
@@ -89,7 +84,7 @@ hr {
   width:600px;
   height:2px;
 }
-  
+/* estilos para el primer formulario de ingreso de email*/ 
 #ingresaemail {
   margin: 0 auto;
   font-size: 27px;
@@ -127,7 +122,7 @@ hr {
   color: rgb(3, 3, 3);
   outline: none;
 }
-  
+/*estilo para el primer boton de la pagina*/
 #boton1 {
   position: flex;
   font-size: 18px;
@@ -140,7 +135,7 @@ hr {
   border-radius: 63px;
   outline: none;
 }
-  
+/* estilo para subtitulo de segundo formulario de pago*/ 
 #validatarjetapara {
   margin: 0 auto;
   margin-top: 50px;
@@ -152,7 +147,7 @@ hr {
   font-size: 30px;
   color: #000000;
 }
-  
+/* estilos de segundo formulario de pago*/
 .formulario {
   margin: 0 auto;
   font-size: 20px;
@@ -171,113 +166,114 @@ hr {
   border-radius: 20px; 
   border: 1px solid #a1da52;
 }
-  
-#boton2 {
-margin: -50px -50px; 
-width: 100px;
-position: relative;
-top: 50%; 
-left: 50%;
-font-size: 18px;
-padding: 15px;
-margin-top: 20px;
-color: white;
-background: #3E6ECD;
-border: 1px solid #3E6ECD;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 63px;
-outline: none; 
-}
-  
+/* estilos del label del formulario*/ 
 .form--label1 {
-position: relative;
-width: 244px;
-height: 30px;
-left: -2px;
-font-family: verdana;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 34px;
-color: #000000;
+  position: relative;
+  width: 244px;
+  height: 30px;
+  left: -2px;
+  font-family: verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 34px;
+  color: #000000;
 }
   
 .form--label2 {
-position: relative;
-width: 244px;
-height: 34px;
-left: -2px;
-font-family: verdana;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 34px;
-color: #000000;
+  position: relative;
+  width: 244px;
+  height: 34px;
+  left: -2px;
+  font-family: verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 34px;
+  color: #000000;
 }
   
 .form--label3 {
-position: relative;
-width: 240px;
-height: 34px;
-left: -2px;
-font-family: verdana;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 34px;
-color: #000000;
+  position: relative;
+  width: 240px;
+  height: 34px;
+  left: -2px;
+  font-family: verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 34px;
+  color: #000000;
 }
   
 .form--label4 {
-position: relative;
-width: 244px;
-height: 34px;
-left: -18px;
-font-family: verdana;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 34px;
-color: #000000;
+  position: relative;
+  width: 244px;
+  height: 34px;
+  left: -18px;
+  font-family: verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 34px;
+  color: #000000;
 }
-  
+/* estilos del input del formulario*/ 
 .form-input1 {
-position: relative;
-width: 200px;
-height: 20px;
-left: -1px;
-background: #FFFFFF;
-margin-top:10px;
-border: 1px solid #D8CACA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 41px;
-padding-left: 25px;
-font-family: verdana;
-font-size: 15px;
-line-height: 29px;
-color: rgb(3, 3, 3);
-outline: none; 
+  position: relative;
+  width: 200px;
+  height: 20px;
+  left: -1px;
+  background: #FFFFFF;
+  margin-top:10px;
+  border: 1px solid #D8CACA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  padding-left: 25px;
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 29px;
+  color: rgb(3, 3, 3);
+  outline: none; 
 }
   
 .form-input2 {
-position: relative;
-width: 200px;
-height: 20px;
-left: 8px;
-margin: 0 auto;
-background: #FFFFFF;
-margin-top:20px;
-border: 1px solid #D8CACA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 41px;
-padding-left: 25px;
-font-family: verdana;
-font-size: 15px;
-line-height: 29px;
-color: rgb(3, 3, 3);
-outline: none; 
+  position: relative;
+  width: 200px;
+  height: 20px;
+  left: 8px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  margin-top:20px;
+  border: 1px solid #D8CACA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  padding-left: 25px;
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 29px;
+  color: rgb(3, 3, 3);
+  outline: none; 
 }
 
+.form-input4 {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  left: 110px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #D8CACA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  padding-left: 25px;
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 29px;
+  color: rgb(3, 3, 3);
+  outline: none; 
+}
+/* estilos para el select de mes y año*/
 .form-mes{
   position: relative;
   width: 120px;
@@ -311,25 +307,29 @@ outline: none;
   color: rgb(3, 3, 3);
   outline: none; 
 }
-
-.form-input4 {
+/* estilo de iconos de tarjetas*/
+.iconvisa, .iconmaster{
   position: relative;
-  width: 200px;
-  height: 20px;
-  left: 110px;
-  margin: 0 auto;
-  background: #FFFFFF;
-  border: 1px solid #D8CACA;
+  left: 35%;
+}
+/* estilo de para el segundo boton*/
+#boton2 {
+  margin: -50px -50px; 
+  width: 100px;
+  position: relative;
+  top: 50%; 
+  left: 50%;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 20px;
+  color: white;
+  background: #3E6ECD;
+  border: 1px solid #3E6ECD;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 41px;
-  padding-left: 25px;
-  font-family: verdana;
-  font-size: 15px;
-  line-height: 29px;
-  color: rgb(3, 3, 3);
+  border-radius: 63px;
   outline: none; 
 }
-
+/* estilos para las notas de pantallas*/
 #nota0{
   text-align: center;
   font-family: verdana;
@@ -350,9 +350,8 @@ outline: none;
   color: #ee314a;
 }
 
-#nota2 {
+#nota2, .tarjvalid {
   margin: 0 auto;
-  margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
   font-family: verdana;
@@ -360,6 +359,10 @@ outline: none;
   font-weight: bold;
   font-size: 20px;
   color: #479b4e;
+}
+
+.tarjvalid{
+  margin-top: 20px;
 }
 
 #nota3 {
@@ -373,7 +376,7 @@ outline: none;
   font-size: 20px;
   color: #fc0000;   
 }
-
+/* estilos para el pie de pagina*/
 footer{
   position: absolute;
   margin-top: 120px;
@@ -387,7 +390,7 @@ footer{
 .cerdito{
   font-size: 40px;
 }
-  
+/* estilos para ocultar pantallas*/  
 #segundapag {
   display: none;    
 }
@@ -395,8 +398,16 @@ footer{
 .ultimapantalla{
   display: none;
 }
-
-.name1{
+/* estilo para subtitulo de ultima pantalla*/
+h3{
+  font-size: 30px;
+  color: #3E6ECD;
+  margin: 170 80px 0 80px;
+  font-family: verdana;
+  text-align:center;  
+}
+/* estilo para el nombre de usuario*/
+.name1{   
   text-align: center;
   font-family: verdana;
   font-style: bold;
@@ -404,7 +415,7 @@ footer{
   font-size: 40px;
   color: rgb(119, 127, 131);
 }
-
+/* estilos para mensaje de suscripcion e imagen final*/
 .mensajefinal{
   text-align: center;
   font-family: verdana;
@@ -417,7 +428,7 @@ footer{
   float: center;
   text-align:center;
 }
-
+/* estilo para tercer boton*/
 #boton3{
   position: center;
   font-size: 18px;
@@ -430,7 +441,7 @@ footer{
   border-radius: 63px;
   outline: none;
 }
-
+/* estilo para audio final*/
 #victory{
   display: none;
 }

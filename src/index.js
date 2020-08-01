@@ -14,7 +14,7 @@ const boton1 = document.getElementById('boton1');
 });
 
 //funcion de segundo boton, llenado de datos de formulario//
-const boton2= document.getElementById('boton2');
+const boton2 = document.getElementById('boton2');
       boton2.addEventListener('click',() => {
 
       const creditCardNumber= document.getElementById('creditCardNumber').value;
@@ -27,7 +27,7 @@ const boton2= document.getElementById('boton2');
            document.getElementById('nota2').style.display='none';
            document.getElementById('nota3').style.display='none';
            document.getElementById('nota1').style.display='block';
-      //Declaracion de la variable//
+//Declaracion de la variable//
       }  else {
         const numeroTarjeta = document.getElementById('creditCardNumber');
         const numeroTarjetaEncriptado = validator.maskify(numeroTarjeta.value);
@@ -41,7 +41,9 @@ const boton2= document.getElementById('boton2');
             document.getElementById('nota2').style.display='block';
             document.getElementById('segundapag').style.display='none';
             document.getElementById('tercerapag').style.display='block';
-            document.getElementById("nombrecli").innerHTML = nameClient;
+            document.getElementById("nombrecli").innerText = `${nameClient}`;
+            document.getElementById("numbervalid").innerText = `Tus últimos dígitos de tarjeta son ${numeroTarjetaEncriptado}`;
+
             
             } else {
             
@@ -58,6 +60,7 @@ const boton2= document.getElementById('boton2');
 const boton3 = document.getElementById('boton3');
       boton3.addEventListener('click',() => {
        document.getElementById('nota2').style.display='none';
+       document.getElementById('numbervalid').style.display='none';
        document.getElementById('primerapag').style.display = 'none';
        document.getElementById('segundapag').style.display = 'none';
        document.getElementById('tercerapag').style.display = 'block';
@@ -66,4 +69,4 @@ const boton3 = document.getElementById('boton3');
   });
 
 
- //console.log(validator);
+  
