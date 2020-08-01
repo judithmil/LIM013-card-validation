@@ -24,7 +24,7 @@ ___
 
 :film_projector: **POPCORN**, es un servicio de transmisión o 'streaming' que permite ver y disfrutar de una gran variedad de series y películas en cualquier dispositivo con acceso a internet como celulares, computadoras, tabletas o 'smart tv', mediante el pago de una tarifa fija mensual. Se realizará la validación de la tarjeta con el algortimo de Luhn. :credit_card:
 
-
+![pantallaweb](https://i.ibb.co/R9sL6zW/pantallaweb.jpg)
 
 ## ** 3. Descarga e intalación:**
 ___
@@ -100,7 +100,7 @@ ___
 Las pruebas unitarias dieron un 100% en _coverage_ (cobertura),
 100%_statements_ (sentencias), 100%_functions_ (funciones) y _lines_ (líneas); y un 100% de _branches_ (ramas).
 
-
+![imgtest](https://i.ibb.co/YfspFfq/testjest.jpg)
 
 ### ** 9. Objetivos de aprendizaje:**
 ___
