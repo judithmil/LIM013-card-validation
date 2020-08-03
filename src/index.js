@@ -22,6 +22,7 @@ const boton2 = document.getElementById('boton2');
       const mes= document.getElementById('mes').value;
       const year= document.getElementById('year').value;
       const cvv=document.getElementById('cvv').value;
+
       if (nameClient === "" || creditCardNumber === "" || mes ==="00" || year ==="88" || cvv === "") {
            document.getElementById('nota1').innerHTML= '*Ingresar datos requeridos';
            document.getElementById('nota2').style.display='none';
@@ -43,8 +44,7 @@ const boton2 = document.getElementById('boton2');
             document.getElementById('tercerapag').style.display='block';
             document.getElementById("nombrecli").innerText = `${nameClient}`;
             document.getElementById("numbervalid").innerText = `Tus últimos dígitos de tarjeta son ${numeroTarjetaEncriptado}`;
-
-            
+ 
             } else {
             
             document.getElementById('nota3').innerHTML= '*Tarjeta ingresada inválida';
@@ -68,5 +68,21 @@ const boton3 = document.getElementById('boton3');
        audio.play();
   });
 
-
-  
+const tarjeta= document.getElementById('creditCardNumber');
+      tarjeta.addEventListener('keyup', () =>{
+      
+      const creditCardNumber = document.getElementById('creditCardNumber').value;
+        if (creditCardNumber[0] == "4") {
+            document.getElementById("visa").style.display = "block";
+            document.getElementById("master").style.display = "none";
+            
+        } else
+            if (creditCardNumber[0] == "5" && (creditCardNumber[1] == "1" || creditCardNumber[1] == "2" || creditCardNumber[1] == "3" || creditCardNumber[1] == "4" || creditCardNumber[1] == "5")) {
+            document.getElementById("master").style.display = "block";
+            document.getElementById("visa").style.display = "none";
+            
+            } else{
+            document.getElementById("master").style.display = "none";
+            document.getElementById("visa").style.display = "none"; 
+            }
+  });
