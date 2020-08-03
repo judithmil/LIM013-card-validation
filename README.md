@@ -29,7 +29,7 @@ ___
 ## **3. Descarga e intalación:**
 ___
 
-![imagen](https://i.ibb.co/rt9Q9vW/app.png){style="margin: 0 auto"}
+![imagen](https://i.ibb.co/rt9Q9vW/app.png)
 
 Se puede acceder a la aplicación descargándola a través de la Play Store, App Store :iphone: o ingresar a través de la página web :woman_technologist:, de una manera fácil y sencilla. 
 Para poder acceder:
@@ -38,7 +38,7 @@ Para poder acceder:
   - Válida tu tarjeta para realizar el pago y no perderte ni un solo episodio cuando finalice tu prueba gratis.
   - Eso es todo. ¡Disfruta de nuestro streaming! :tv:
 
-  ![out](https://k60.kn3.net/taringa/2/7/6/9/4/7/52/sebayes/E44.gif){style="margin: 0 auto"}
+  ![out](https://k60.kn3.net/taringa/2/7/6/9/4/7/52/sebayes/E44.gif)
 
 ## **4. Investigación UX:** :pencil:
 ___
