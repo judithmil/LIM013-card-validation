@@ -56,19 +56,9 @@ const boton2 = document.getElementById('boton2');
       }
 
   });
-//Funcion de tercer boton de la ultima pagina//
-const boton3 = document.getElementById('boton3');
-      boton3.addEventListener('click',() => {
-       document.getElementById('nota2').style.display='none';
-       document.getElementById('numbervalid').style.display='none';
-       document.getElementById('primerapag').style.display = 'none';
-       document.getElementById('segundapag').style.display = 'none';
-       document.getElementById('tercerapag').style.display = 'block';
-       const audio = document.getElementById("victory");
-       audio.play();
-  });
 
-const tarjeta= document.getElementById('creditCardNumber');
+//evento para visualizar el tipo de tarjeta//
+const tarjeta = document.getElementById('creditCardNumber');
       tarjeta.addEventListener('keyup', () =>{
       
       const creditCardNumber = document.getElementById('creditCardNumber').value;
@@ -76,13 +66,24 @@ const tarjeta= document.getElementById('creditCardNumber');
             document.getElementById("visa").style.display = "block";
             document.getElementById("master").style.display = "none";
             
-        } else
-            if (creditCardNumber[0] == "5" && (creditCardNumber[1] == "1" || creditCardNumber[1] == "2" || creditCardNumber[1] == "3" || creditCardNumber[1] == "4" || creditCardNumber[1] == "5")) {
+        } else if (creditCardNumber[0] == "5" && (creditCardNumber[1] == "1" || creditCardNumber[1] == "2" || creditCardNumber[1] == "3" || creditCardNumber[1] == "4" || creditCardNumber[1] == "5")) {
             document.getElementById("master").style.display = "block";
             document.getElementById("visa").style.display = "none";
             
-            } else{
+        } else{
             document.getElementById("master").style.display = "none";
             document.getElementById("visa").style.display = "none"; 
             }
-  });
+ });
+
+ //Funcion de tercer boton de la ultima pagina//
+const boton3 = document.getElementById('boton3');
+      boton3.addEventListener('click',() => {
+        document.getElementById('nota2').style.display='none';
+        document.getElementById('numbervalid').style.display='none';
+        document.getElementById('primerapag').style.display = 'none';
+        document.getElementById('segundapag').style.display = 'none';
+        document.getElementById('tercerapag').style.display = 'block';
+      const audio = document.getElementById("victory");
+        audio.play();
+});
