@@ -32,6 +32,7 @@ ___
 ![imagen](https://i.ibb.co/rt9Q9vW/app.png)
 
 Se puede acceder a la aplicación descargándola a través de la Play Store, App Store :iphone: o ingresar a través de la página web :woman_technologist:, de una manera fácil y sencilla. 
+
 Para poder acceder:
 
   - Crea una cuenta introduciendo tu email para registrarte.
@@ -55,8 +56,11 @@ Personas que deseen disfrutar de su tiempo libre viendo sus series o peliculas f
 
 ### **ii). Objetivos:** 
   Para el dueño de la aplicación:
-  - Generar ingresos mediante la venta de suscripciones a su plataforma de streaming de una forma segura, validando los datos de la tarjeta del usuario. 
+
+  - Generar ingresos mediante la venta de suscripciones a su plataforma de streaming de una forma segura, validando los datos de la tarjeta del usuario.  
+    
   Para el usuario:
+
   - El usuario pueda disfrutar al máximo de la app.
   - Realizar una interfaz amigable e intuitiva para el usuario.
   - Lograr que el usuario se registre con éxito.
