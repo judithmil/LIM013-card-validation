@@ -15,21 +15,21 @@ ___
 
 ***
 
-## ** 1. Nombre de aplicación:** 
+## **1. Nombre de aplicación:** 
 
 # **POPCORN**
 
-## ** 2. Descripción:**
+## **2. Descripción:**
 ___
 
 :film_projector: **POPCORN**, es un servicio de transmisión o 'streaming' que permite ver y disfrutar de una gran variedad de series y películas en cualquier dispositivo con acceso a internet como celulares, computadoras, tabletas o 'smart tv', mediante el pago de una tarifa fija mensual. Se realizará la validación de la tarjeta con el algortimo de Luhn. :credit_card:
 
 ![pantallaweb](https://i.ibb.co/R9sL6zW/pantallaweb.jpg)
 
-## ** 3. Descarga e intalación:**
+## **3. Descarga e intalación:**
 ___
 
-![imagen](https://i.ibb.co/rt9Q9vW/app.png)
+![imagen](https://i.ibb.co/rt9Q9vW/app.png){style="margin: 0 auto"}
 
 Se puede acceder a la aplicación descargándola a través de la Play Store, App Store :iphone: o ingresar a través de la página web :woman_technologist:, de una manera fácil y sencilla. 
 Para poder acceder:
@@ -38,9 +38,9 @@ Para poder acceder:
   - Válida tu tarjeta para realizar el pago y no perderte ni un solo episodio cuando finalice tu prueba gratis.
   - Eso es todo. ¡Disfruta de nuestro streaming! :tv:
 
-  ![out](https://k60.kn3.net/taringa/2/7/6/9/4/7/52/sebayes/E44.gif)
+  ![out](https://k60.kn3.net/taringa/2/7/6/9/4/7/52/sebayes/E44.gif){style="margin: 0 auto"}
 
-## ** 4. Investigación UX:** :pencil:
+## **4. Investigación UX:** :pencil:
 ___
 
 ![userflow](https://i.ibb.co/fCw207C/flujo.jpg)
@@ -66,7 +66,7 @@ Personas que deseen disfrutar de su tiempo libre viendo sus series o peliculas f
 
 Debido en la coyuntura actual, las personas ya no pueden salir y disfrutar de su tiempo libre,como ir al cine o simplemente tener un momento de ocio para desestresarse, pensando en la necesidad del usuario :shipit: :mag_right:, hemos creado un servicio streaming, que brinda variedad de series y películas, que puedes disfrutar de cualquier dispositivo móvil, pc o smartv, en cualquier momento.
 
-### ** 5. Imágenes de mi prototipo inicial:**
+### **5. Imágenes de mi prototipo inicial:**
 ___
 
 Imágenes del primer prototipo en papel:
@@ -77,7 +77,7 @@ Imágenes del primer prototipo en papel:
 
 ![prototipo](https://i.ibb.co/QnZjhzy/boceto3.jpg)
 
-### ** 6. Feedback recibido:**
+### **6. Feedback recibido:**
 ___
 
   - Mostre mi prototipo en papel a mi squad, coach y algunas amistades, me sugirieron cambiar, el color de mi diseño de interfaz, me brindaron recursos para el contraste de colores.
@@ -85,7 +85,7 @@ ___
   - Tuve un poco de difilcutad en importar y exportar el objeto "validator.js", pero gracias a mi squad logramos entender y poder realizarlo.
   - El número de tarjeta encriptada con "#" debe salir en la última página, para visualizar si se realiza el proceso.
 
-### ** 7. Imagen prototipo final:**
+### **7. Imagen prototipo final:**
 ___
 
 ![proyecto](https://i.ibb.co/Ky18YYj/primerapantalla.jpg)
@@ -94,7 +94,7 @@ ___
 
 ![proyecto](https://i.ibb.co/PcXW9Q1/tercerapantalla.jpg)
 
-### ** 8. Test Unitarios:**
+### **8. Test Unitarios:**
 ___
 
 Las pruebas unitarias dieron un 100% en _coverage_ (cobertura),
@@ -102,7 +102,7 @@ Las pruebas unitarias dieron un 100% en _coverage_ (cobertura),
 
 ![imgtest](https://i.ibb.co/YfspFfq/testjest.jpg)
 
-### ** 9. Objetivos de aprendizaje:**
+### **9. Objetivos de aprendizaje:**
 ___
 
 Se consideraron como objetivos de aprendizaje lo siguiente:
